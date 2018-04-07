@@ -7,5 +7,6 @@ html='''
 </div>
 '''
 from bs4 import BeautifulSoup
+
 soup = BeautifulSoup(html, 'lxml')
 print(soup.find_all(text = 'link'))

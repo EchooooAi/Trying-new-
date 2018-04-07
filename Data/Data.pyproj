@@ -2,18 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>38ef622c-6491-409a-8f8d-d6575b2d6aeb</ProjectGuid>
+    <ProjectGuid>9adee951-a98b-4a81-8494-2e577fb52103</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>Data_1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
-    <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda36-64</InterpreterId>
+    <Name>Data</Name>
+    <RootNamespace>Data</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,38 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="module1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DouBan.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="openpyxltest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplication1.py" />
-    <Compile Include="maoYan.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="QQKongJian.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="seleniumtest_sign_in_zhi_hu.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="wordcloud_test.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="zsw.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="download\" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
-    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <Compile Include="Data_1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
